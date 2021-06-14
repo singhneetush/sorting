@@ -23,3 +23,10 @@ As already stated , that the minimum element is found among the unsorted part an
 The process involves 2 loops , the first one starts from 0 to n-1 , and the second one starts from i+1 to n.
 Since the sorting process involves 2 for loops , so its time complexity is O(n^2).  And its space complexity is O(1), since an extra varible is used to swap the elements .
 Selection sort is used for small sized array , because it has high time and space complexity.Also , it is preferred when the cost of swapping is not more .
+
+
+BUBBLE SORT
+
+It is a simple sorting algorithm.It sort an array of n elements.
+It basically compares all elements by their adjacent ones , one by one.If the array is to be sorted in ascending order, then the element at the left is compared by the element at the right , if the element at the left is greater than the element at the right , then we'll swap both of them.If we have n elements then , this process is carried for n-1 times.It is known as Bubble Sort , because with every complete iteration , the largest element bubbles up to the highest index place value same as when  water bubbles , rises up to a surface.
+A flag variable is used to optimize this algo , so that the iteration does not occur even when there is no swapping , i.e., swapping is been checked at the inner loop with the help of flag variable. 
