@@ -30,3 +30,4 @@ BUBBLE SORT
 It is a simple sorting algorithm.It sort an array of n elements.
 It basically compares all elements by their adjacent ones , one by one.If the array is to be sorted in ascending order, then the element at the left is compared by the element at the right , if the element at the left is greater than the element at the right , then we'll swap both of them.If we have n elements then , this process is carried for n-1 times.It is known as Bubble Sort , because with every complete iteration , the largest element bubbles up to the highest index place value same as when  water bubbles , rises up to a surface.
 A flag variable is used to optimize this algo , so that the iteration does not occur even when there is no swapping , i.e., swapping is been checked at the inner loop with the help of flag variable. 
+The time complexity is O(n^2) and the space complexity is O(1) , since an extra flag variable is used .
